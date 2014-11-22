@@ -81,6 +81,9 @@ zstyle ':vcs_info:git:*' actionformats '* %F{blue}%b%f(%F{red}%a%f)'
 # プロンプト内で変数参照する
 setopt PROMPT_SUBST
 
+# コマンド実行後は右プロンプトを消す
+setopt TRANSIENT_RPROMPT
+
 # 現在の位置を表示
 local pt_dir="%F{blue}[%d]%f"
 PROMPT=$pt_dir$'\n'"> "
