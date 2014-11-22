@@ -5,6 +5,9 @@
 # 言語設定
 export LANG=ja_JP.UTF-8
 export OUTPUT_CHARSET=utf8
+# ターミナルからsshした先で日本語入力が出来ない件の解決
+#export LC_CTYPE=en_US.UTF-8
+#export LC_ALL=en_US.UTF-8
 
 # 色を使用可能に
 autoload -Uz colors && colors
