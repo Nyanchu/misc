@@ -1,3 +1,6 @@
+"環境設定
+set encoding=utf-8
+
 "表示設定
 set number "行番号を表示する
 set title "編集中のファイル名を表示
@@ -18,3 +21,4 @@ set fileencoding=utf-8 "文字コードはUTF-8
 
 "色設定
 hi Comment ctermfg=2 "緑色
+
